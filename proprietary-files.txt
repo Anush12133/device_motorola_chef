@@ -275,6 +275,42 @@ vendor/lib64/libsdedrm.so
 vendor/lib64/libSecureUILib.so
 vendor/lib64/libssd.so
 
+# Display Config
+vendor/lib/vendor.display.config@1.2.so
+vendor/lib64/vendor.display.config@1.2.so
+
+# DRM - HDCP
+vendor/lib/libmm-hdcpmgr.so
+vendor/lib64/libmm-hdcpmgr.so
+
+# DRM - Qualcomm Trusted Execution Enviornment
+vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service
+vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc
+vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so
+vendor/lib/vendor.qti.hardware.qteeconnector@1.0.so
+vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so
+vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so
+
+# DRM - Widevine
+vendor/bin/hw/android.hardware.drm@1.1-service.clearkey
+vendor/etc/init/android.hardware.drm@1.1-service.clearkey.rc 
+vendor/bin/hw/android.hardware.drm@1.1-service.widevine
+vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc
+vendor/lib/mediadrm/libwvdrmengine.so
+vendor/lib/mediadrm/libdrmclearkeyplugin.so
+vendor/lib/liboemcrypto.so
+vendor/lib/libhdcpsrm.so
+vendor/lib/libcpion.so
+vendor/lib/libbase64.so
+vendor/lib/libdrmfs.so
+vendor/lib64/libbase64.so
+vendor/lib64/mediadrm/libdrmclearkeyplugin.so
+vendor/lib64/mediadrm/libwvdrmengine.so
+vendor/lib64/liboemcrypto.so
+vendor/lib64/libwvhidl.so
+vendor/lib64/libhdcpsrm.so
+vendor/lib64/libcpion.so
+
 # Fingerprint
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-ets
 vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-ets.rc
