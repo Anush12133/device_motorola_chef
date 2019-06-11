@@ -1,9 +1,9 @@
 [
   {
     "remote":      "github",
-    "repository": "ArrowOS-Devices/android_kernel_motorola_chef",
-   "target_path": "kernel/motorola/sdm660",
-   "branch":      "arrow-9.x"
+    "repository": "Hasaber8/android_kernel_motorola_chef",
+   "target_path": "kernel/motorola/msm8998",
+   "branch":      "pie"
   },
   {
     "remote":      "github",
@@ -31,7 +31,7 @@
   },
   {
     "remote":      "github",
-    "repository": "santoni-trees/android_device_motorola_sdm660-common",
+    "repository": "LineageOS/android_device_motorola_sdm660-common",
     "target_path": "device/motorola/sdm660-common",
     "branch": "lineage-16.0"
   }
