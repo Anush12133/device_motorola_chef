@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/rr_chef.mk
+    $(LOCAL_DIR)/lineage_chef.mk
